@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [EndToEnd]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="GenericLibrary.ExtentReporterNG"/>
+  </listeners>
+  <test name="SanityTest_OrderIDVerification">
+    <classes>
+      <class name="SanityTest.OrderID_Verification_CashOnDelivery_Test"/>
+    </classes>
+  </test> <!-- SanityTest_OrderIDVerification -->
+  <test name="SanityTest_OrderIDVerification(failed)">
+    <classes>
+      <class name="SanityTest.OrderID_Verification_CashOnDelivery_Test">
+        <methods>
+          <include name="OrderID_Verification_CashOnDelivery"/>
+          <include name="beforeTestCofig"/>
+          <include name="AfterTest"/>
+        </methods>
+      </class> <!-- SanityTest.OrderID_Verification_CashOnDelivery_Test -->
+    </classes>
+  </test> <!-- SanityTest_OrderIDVerification(failed) -->
+</suite> <!-- Failed suite [EndToEnd] -->
