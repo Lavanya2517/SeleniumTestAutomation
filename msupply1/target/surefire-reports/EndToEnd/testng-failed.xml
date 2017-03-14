@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [EndToEnd]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="GenericLibrary.Listener"/>
+  </listeners>
+  <test name="msupply_HomePage_FooterSections">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_FooterSections -->
+  <test name="msupply_HomePage_HeroImage_And_MarketingPromos">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_HeroImage_And_MarketingPromos -->
+  <test name="msupply_HomePage_Main_HeaderVerification">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_Main_HeaderVerification -->
+  <test name="msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification -->
+  <test name="msupply_HomePage_SlidersVerification">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_SlidersVerification -->
+  <test name="msupply_HomePage_SubHeaderVerification">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test"/>
+    </classes>
+  </test> <!-- msupply_HomePage_SubHeaderVerification -->
+  <test name="msupply_HomePage_FooterSections(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="msupply_HomePage_FooterSections"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test -->
+    </classes>
+  </test> <!-- msupply_HomePage_FooterSections(failed) -->
+  <test name="msupply_HomePage_HeroImage_And_MarketingPromos(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="msupply_HomePage_HeroImage_And_MarketingPromos"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test -->
+    </classes>
+  </test> <!-- msupply_HomePage_HeroImage_And_MarketingPromos(failed) -->
+  <test name="msupply_HomePage_Main_HeaderVerification(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="msupply_HomePage_Main_HeaderVerification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test -->
+    </classes>
+  </test> <!-- msupply_HomePage_Main_HeaderVerification(failed) -->
+  <test name="msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test -->
+    </classes>
+  </test> <!-- msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification(failed) -->
+  <test name="msupply_HomePage_SlidersVerification(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_HeroImage_And_MarketingPromos_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_Main_HeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_FooterSections_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_ServiceProvider_Brand_Testimonial_Verification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SubHeaderVerification_Test -->
+      <class name="Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test">
+        <methods>
+          <include name="msupply_HomePage_SlidersVerification"/>
+          <include name="beforeTestCofig"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.msupply_HomePage_SlidersVerification_Test -->
+    </classes>
+  </test> <!-- msupply_HomePage_SlidersVerification(failed) -->
+</suite> <!-- Failed suite [EndToEnd] -->

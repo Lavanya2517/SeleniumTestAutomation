@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EndToEnd]">
+  <test name="msupply_SupplierUnboarding(failed)">
+    <classes>
+      <class name="Functional_TestCase_HomePage.HomePageTest">
+        <methods>
+          <include name="beforeTestCofig"/>
+          <include name="askForQuoteTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Functional_TestCase_HomePage.HomePageTest -->
+    </classes>
+  </test> <!-- msupply_SupplierUnboarding(failed) -->
+</suite> <!-- Failed suite [EndToEnd] -->
