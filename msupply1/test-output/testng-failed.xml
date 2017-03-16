@@ -6,7 +6,7 @@
       <class name="Functional_TestCase_HomePage.HomePageTest">
         <methods>
           <include name="beforeTestCofig"/>
-          <include name="askForQuoteTest" invocation-numbers="0"/>
+          <include name="askForQuoteTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- Functional_TestCase_HomePage.HomePageTest -->

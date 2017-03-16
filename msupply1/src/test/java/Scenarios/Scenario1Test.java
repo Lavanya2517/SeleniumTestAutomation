@@ -43,13 +43,13 @@ public class Scenario1Test
     }   
    
     
-    @AfterTest
+   /* @AfterTest
 	public void tearDown() throws Throwable
 	{
     	Scenario1Test.softAssert.assertAll();
     	
   	   //ShoppingCartPage.removeCartProducts();
     	driver.quit();
-	}
+	}*/
     
 }

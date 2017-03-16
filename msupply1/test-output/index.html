@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-EndToEnd">
-              <span class="suite-name border-failed">EndToEnd</span>
+              <span class="suite-name border-passed">EndToEnd</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-EndToEnd" class="hide-methods failed suite-EndToEnd"> (hide)</a> <!-- hide-methods failed suite-EndToEnd -->
-                      <a href="#" panel-name="suite-EndToEnd" class="show-methods failed suite-EndToEnd"> (show)</a> <!-- show-methods failed suite-EndToEnd -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EndToEnd" class="hide-methods passed suite-EndToEnd"> (hide)</a> <!-- hide-methods passed suite-EndToEnd -->
+                      <a href="#" panel-name="suite-EndToEnd" class="show-methods passed suite-EndToEnd"> (show)</a> <!-- show-methods passed suite-EndToEnd -->
                     </span>
-                    <div class="method-list-content failed suite-EndToEnd">
+                    <div class="method-list-content passed suite-EndToEnd">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-EndToEnd" title="Functional_TestCase_HomePage.HomePageTest" hash-for-method="askForQuoteTest(9900514935, 123qwe)">askForQuoteTest(9900514935, 123qwe)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-EndToEnd -->
+                    </div> <!-- method-list-content passed suite-EndToEnd -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-EndToEnd" class="panel EndToEnd">
-          <div class="suite-EndToEnd-class-failed">
+          <div class="suite-EndToEnd-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Functional_TestCase_HomePage.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,32 +129,10 @@
                   </a> <!-- askForQuoteTest(9900514935, 123qwe) -->
                   <span class="method-name">askForQuoteTest</span>
                   <span class="parameters">(9900514935, 123qwe)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=56.0.2924.87)
-  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;My-PC&apos;, ip: &apos;10.1.2.94&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\Me\AppData\Local\Temp\scoped_dir1624_6207}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: a7e230ee8da47189ade4837cd36aab04
-*** Element info: {Using=xpath, value=//div[@class=&apos;ng-col-33 pad0 ng-scope&apos;]//li/a[text()=&apos;Customer Login&apos;]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at POM.HomePage.clickOnCustomerLogin(HomePage.java:1204)
-	at Functional_TestCase_HomePage.HomePageTest.askForQuoteTest(HomePageTest.java:39)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-EndToEnd-class-failed -->
+          </div> <!-- suite-EndToEnd-class-passed -->
         </div> <!-- panel EndToEnd -->
         <div panel-name="test-xml-EndToEnd" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -215,12 +193,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'askForQuoteTest')
 data.setCell(0, 2, 'Functional_TestCase_HomePage.HomePageTest')
-data.setCell(0, 3, 29);
+data.setCell(0, 3, 88341);
 window.suiteTableData['EndToEnd']= { tableData: data, tableDiv: 'times-div-EndToEnd'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-EndToEnd">
               </div> <!-- times-div-EndToEnd -->
             </div> <!-- times-div -->
@@ -252,15 +230,9 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">askForQuoteTest(9900514935, 123qwe)</span>
-                <span class="method-start">6717 ms</span>
+                <span class="method-start">8325 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">6759 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

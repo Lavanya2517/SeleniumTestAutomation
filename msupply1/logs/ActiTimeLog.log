@@ -6337,3 +6337,147 @@ Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cs
 23266 [2017-03-13 16:23:34,169] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
 26493 [2017-03-13 16:23:37,396] [INFO] [POM.AskForQuotePage ] - Validating success message
 27943 [2017-03-13 16:23:38,846] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+1    [2017-03-14 17:56:25,650] [INFO] [POM.CustomerLoginPage ] - User name entered
+353  [2017-03-14 17:56:26,002] [INFO] [POM.CustomerLoginPage ] - Password entered
+694  [2017-03-14 17:56:26,343] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+7111 [2017-03-14 17:56:32,760] [INFO] [POM.HomePage ] - Scrolling down page
+7775 [2017-03-14 17:56:33,424] [INFO] [POM.HomePage ] - A category selected
+15033 [2017-03-14 17:56:40,682] [INFO] [POM.ProductListPage ] - Product selected
+23390 [2017-03-14 17:56:49,039] [INFO] [POM.AskForQuotePage ] - Quantity entered
+26324 [2017-03-14 17:56:51,973] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+29137 [2017-03-14 17:56:54,786] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+31495 [2017-03-14 17:56:57,144] [INFO] [POM.AskForQuotePage ] - Pin code entered
+33211 [2017-03-14 17:56:58,860] [INFO] [POM.AskForQuotePage ] - Payment type selected
+35143 [2017-03-14 17:57:00,792] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+36815 [2017-03-14 17:57:02,464] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+40204 [2017-03-14 17:57:05,853] [INFO] [POM.AskForQuotePage ] - Validating success message
+41915 [2017-03-14 17:57:07,564] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+1    [2017-03-14 17:59:39,786] [INFO] [POM.CustomerLoginPage ] - User name entered
+399  [2017-03-14 17:59:40,184] [INFO] [POM.CustomerLoginPage ] - Password entered
+722  [2017-03-14 17:59:40,507] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+3905 [2017-03-14 17:59:43,690] [INFO] [POM.HomePage ] - Scrolling down page
+4425 [2017-03-14 17:59:44,210] [INFO] [POM.HomePage ] - A category selected
+7236 [2017-03-14 17:59:47,021] [INFO] [POM.ProductListPage ] - Product selected
+10574 [2017-03-14 17:59:50,359] [INFO] [POM.AskForQuotePage ] - Quantity entered
+13350 [2017-03-14 17:59:53,135] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+16009 [2017-03-14 17:59:55,794] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+18332 [2017-03-14 17:59:58,117] [INFO] [POM.AskForQuotePage ] - Pin code entered
+20127 [2017-03-14 17:59:59,912] [INFO] [POM.AskForQuotePage ] - Payment type selected
+21855 [2017-03-14 18:00:01,640] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+23615 [2017-03-14 18:00:03,400] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+27144 [2017-03-14 18:00:06,929] [INFO] [POM.AskForQuotePage ] - Validating success message
+28755 [2017-03-14 18:00:08,540] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+57567 [2017-03-14 18:00:37,352] [INFO] [POM.AdminPanel ] - Email entered
+0    [2017-03-14 18:03:04,356] [INFO] [POM.CustomerLoginPage ] - User name entered
+443  [2017-03-14 18:03:04,799] [INFO] [POM.CustomerLoginPage ] - Password entered
+990  [2017-03-14 18:03:05,346] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+7171 [2017-03-14 18:03:11,527] [INFO] [POM.HomePage ] - Scrolling down page
+7727 [2017-03-14 18:03:12,083] [INFO] [POM.HomePage ] - A category selected
+11203 [2017-03-14 18:03:15,559] [INFO] [POM.ProductListPage ] - Product selected
+15014 [2017-03-14 18:03:19,370] [INFO] [POM.AskForQuotePage ] - Quantity entered
+17742 [2017-03-14 18:03:22,098] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+20413 [2017-03-14 18:03:24,769] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+22755 [2017-03-14 18:03:27,111] [INFO] [POM.AskForQuotePage ] - Pin code entered
+24473 [2017-03-14 18:03:28,829] [INFO] [POM.AskForQuotePage ] - Payment type selected
+26124 [2017-03-14 18:03:30,480] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+27795 [2017-03-14 18:03:32,151] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+31129 [2017-03-14 18:03:35,485] [INFO] [POM.AskForQuotePage ] - Validating success message
+32778 [2017-03-14 18:03:37,134] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+69309 [2017-03-14 18:04:13,665] [INFO] [POM.AdminPanel ] - Email entered
+75731 [2017-03-14 18:04:20,087] [INFO] [POM.AdminPanel ] - Password entered
+0    [2017-03-14 18:06:27,582] [INFO] [POM.CustomerLoginPage ] - User name entered
+402  [2017-03-14 18:06:27,984] [INFO] [POM.CustomerLoginPage ] - Password entered
+827  [2017-03-14 18:06:28,409] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+3891 [2017-03-14 18:06:31,473] [INFO] [POM.HomePage ] - Scrolling down page
+4408 [2017-03-14 18:06:31,990] [INFO] [POM.HomePage ] - A category selected
+8248 [2017-03-14 18:06:35,830] [INFO] [POM.ProductListPage ] - Product selected
+11750 [2017-03-14 18:06:39,332] [INFO] [POM.AskForQuotePage ] - Quantity entered
+14491 [2017-03-14 18:06:42,073] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+17152 [2017-03-14 18:06:44,734] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+19523 [2017-03-14 18:06:47,105] [INFO] [POM.AskForQuotePage ] - Pin code entered
+21236 [2017-03-14 18:06:48,818] [INFO] [POM.AskForQuotePage ] - Payment type selected
+22911 [2017-03-14 18:06:50,493] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+24649 [2017-03-14 18:06:52,231] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+27977 [2017-03-14 18:06:55,559] [INFO] [POM.AskForQuotePage ] - Validating success message
+29716 [2017-03-14 18:06:57,298] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+40854 [2017-03-14 18:07:08,436] [INFO] [POM.AdminPanel ] - Email entered
+44362 [2017-03-14 18:07:11,944] [INFO] [POM.AdminPanel ] - Password entered
+52722 [2017-03-14 18:07:20,304] [INFO] [POM.AdminPanel ] - Login button clicked
+0    [2017-03-14 18:09:52,003] [INFO] [POM.CustomerLoginPage ] - User name entered
+346  [2017-03-14 18:09:52,349] [INFO] [POM.CustomerLoginPage ] - Password entered
+563  [2017-03-14 18:09:52,566] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+2563 [2017-03-14 18:09:54,566] [INFO] [POM.HomePage ] - Scrolling down page
+2862 [2017-03-14 18:09:54,865] [INFO] [POM.HomePage ] - A category selected
+5029 [2017-03-14 18:09:57,032] [INFO] [POM.ProductListPage ] - Product selected
+7185 [2017-03-14 18:09:59,188] [INFO] [POM.AskForQuotePage ] - Quantity entered
+9474 [2017-03-14 18:10:01,477] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+11847 [2017-03-14 18:10:03,850] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+14110 [2017-03-14 18:10:06,113] [INFO] [POM.AskForQuotePage ] - Pin code entered
+15612 [2017-03-14 18:10:07,615] [INFO] [POM.AskForQuotePage ] - Payment type selected
+22042 [2017-03-14 18:10:14,045] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+23267 [2017-03-14 18:10:15,270] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+26498 [2017-03-14 18:10:18,501] [INFO] [POM.AskForQuotePage ] - Validating success message
+27885 [2017-03-14 18:10:19,888] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+33403 [2017-03-14 18:10:25,406] [INFO] [POM.AdminPanel ] - Email entered
+34558 [2017-03-14 18:10:26,561] [INFO] [POM.AdminPanel ] - Password entered
+34700 [2017-03-14 18:10:26,703] [INFO] [POM.AdminPanel ] - Login button clicked
+44911 [2017-03-14 18:10:36,914] [INFO] [POM.AdminPanel ] - OTP entered
+0    [2017-03-14 18:11:24,322] [INFO] [POM.CustomerLoginPage ] - User name entered
+166  [2017-03-14 18:11:24,488] [INFO] [POM.CustomerLoginPage ] - Password entered
+386  [2017-03-14 18:11:24,708] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+2387 [2017-03-14 18:11:26,709] [INFO] [POM.HomePage ] - Scrolling down page
+2624 [2017-03-14 18:11:26,946] [INFO] [POM.HomePage ] - A category selected
+4880 [2017-03-14 18:11:29,202] [INFO] [POM.ProductListPage ] - Product selected
+7194 [2017-03-14 18:11:31,516] [INFO] [POM.AskForQuotePage ] - Quantity entered
+9474 [2017-03-14 18:11:33,796] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+11756 [2017-03-14 18:11:36,078] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+14003 [2017-03-14 18:11:38,325] [INFO] [POM.AskForQuotePage ] - Pin code entered
+15250 [2017-03-14 18:11:39,572] [INFO] [POM.AskForQuotePage ] - Payment type selected
+16679 [2017-03-14 18:11:41,001] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+17941 [2017-03-14 18:11:42,263] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+21186 [2017-03-14 18:11:45,508] [INFO] [POM.AskForQuotePage ] - Validating success message
+22501 [2017-03-14 18:11:46,823] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+25507 [2017-03-14 18:11:49,829] [INFO] [POM.AdminPanel ] - Email entered
+26735 [2017-03-14 18:11:51,057] [INFO] [POM.AdminPanel ] - Password entered
+26942 [2017-03-14 18:11:51,264] [INFO] [POM.AdminPanel ] - Login button clicked
+67168 [2017-03-14 18:12:31,490] [INFO] [POM.AdminPanel ] - OTP entered
+0    [2017-03-14 18:14:10,196] [INFO] [POM.CustomerLoginPage ] - User name entered
+167  [2017-03-14 18:14:10,363] [INFO] [POM.CustomerLoginPage ] - Password entered
+821  [2017-03-14 18:14:11,017] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+2822 [2017-03-14 18:14:13,018] [INFO] [POM.HomePage ] - Scrolling down page
+3084 [2017-03-14 18:14:13,280] [INFO] [POM.HomePage ] - A category selected
+5376 [2017-03-14 18:14:15,572] [INFO] [POM.ProductListPage ] - Product selected
+7531 [2017-03-14 18:14:17,727] [INFO] [POM.AskForQuotePage ] - Quantity entered
+9771 [2017-03-14 18:14:19,967] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+12023 [2017-03-14 18:14:22,219] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+14211 [2017-03-14 18:14:24,407] [INFO] [POM.AskForQuotePage ] - Pin code entered
+15517 [2017-03-14 18:14:25,713] [INFO] [POM.AskForQuotePage ] - Payment type selected
+17069 [2017-03-14 18:14:27,265] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+18346 [2017-03-14 18:14:28,542] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+21520 [2017-03-14 18:14:31,716] [INFO] [POM.AskForQuotePage ] - Validating success message
+22780 [2017-03-14 18:14:32,976] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+26193 [2017-03-14 18:14:36,389] [INFO] [POM.AdminPanel ] - Email entered
+27417 [2017-03-14 18:14:37,613] [INFO] [POM.AdminPanel ] - Password entered
+27665 [2017-03-14 18:14:37,861] [INFO] [POM.AdminPanel ] - Login button clicked
+87666 [2017-03-14 18:15:37,862] [INFO] [POM.AdminPanel ] - OTP entered
+87871 [2017-03-14 18:15:38,067] [INFO] [POM.AdminPanel ] - button clicked
+0    [2017-03-14 18:33:51,268] [INFO] [POM.CustomerLoginPage ] - User name entered
+190  [2017-03-14 18:33:51,458] [INFO] [POM.CustomerLoginPage ] - Password entered
+825  [2017-03-14 18:33:52,093] [INFO] [POM.CustomerLoginPage ] - Login button clicked
+2825 [2017-03-14 18:33:54,093] [INFO] [POM.HomePage ] - Scrolling down page
+3018 [2017-03-14 18:33:54,286] [INFO] [POM.HomePage ] - A category selected
+5169 [2017-03-14 18:33:56,437] [INFO] [POM.ProductListPage ] - Product selected
+7330 [2017-03-14 18:33:58,598] [INFO] [POM.AskForQuotePage ] - Quantity entered
+9546 [2017-03-14 18:34:00,814] [INFO] [POM.AskForQuotePage ] - Karnataka selected
+11756 [2017-03-14 18:34:03,024] [INFO] [POM.AskForQuotePage ] - Bangalore selected
+13925 [2017-03-14 18:34:05,193] [INFO] [POM.AskForQuotePage ] - Pin code entered
+15150 [2017-03-14 18:34:06,418] [INFO] [POM.AskForQuotePage ] - Payment type selected
+16501 [2017-03-14 18:34:07,769] [INFO] [POM.AskForQuotePage ] - Delivery date selected
+17716 [2017-03-14 18:34:08,984] [INFO] [POM.AskForQuotePage ] - Days for credit is selected
+20868 [2017-03-14 18:34:12,136] [INFO] [POM.AskForQuotePage ] - Validating success message
+22084 [2017-03-14 18:34:13,352] [INFO] [POM.AskForQuotePage ] - Enquiry submitted successfully
+25843 [2017-03-14 18:34:17,111] [INFO] [POM.AdminPanel ] - Email entered
+26986 [2017-03-14 18:34:18,254] [INFO] [POM.AdminPanel ] - Password entered
+27132 [2017-03-14 18:34:18,400] [INFO] [POM.AdminPanel ] - Login button clicked
+87133 [2017-03-14 18:35:18,401] [INFO] [POM.AdminPanel ] - OTP entered
+87364 [2017-03-14 18:35:18,632] [INFO] [POM.AdminPanel ] - button clicked

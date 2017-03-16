@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import GenericLibrary.CommonFunctions;
 import GenericLibrary.Credentials;
 import GenericLibrary.WebDriverCommonFunctions;
+import POM.AdminPanel;
 import POM.AskForQuotePage;
 import POM.CustomerLoginPage;
 import POM.HomePage;
@@ -44,7 +45,12 @@ public class HomePageTest extends Scenario1Test
 		afqp = ProductListPage.selectingProduct();
 		Thread.sleep(2000);
 		AskForQuotePage.fillEnquiryForm();
+		//Scenario1Test.driver.close();
+		/*Credentials.url=CommonFunctions.readPropertiesFile("AdminPanel");
+		Scenario1Test.driver.get(Credentials.url);*/
 		
+		Scenario1Test.driver.navigate().to("http://internal.stg.msupply.com/");
+		AdminPanel.internalPanelLogin();
 	}
 	
 	

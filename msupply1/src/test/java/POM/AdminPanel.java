@@ -3,7 +3,9 @@ package POM;
 import java.util.Arrays;
 import java.util.Iterator;
 
+import org.apache.log4j.Logger;
 import org.bson.Document;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import com.mongodb.BasicDBList;
@@ -22,11 +24,13 @@ import com.mongodb.client.MongoDatabase;
 
 import GenericLibrary.CommonFunctions;
 import GenericLibrary.Credentials;
+import GenericLibrary.LogReports;
 import GenericLibrary.WebDriverCommonFunctions;
 import Scenarios.Scenario1Test;
 
 public class AdminPanel 
-{
+{	
+	static Logger log = LogReports.writeLog(AdminPanel.class);
 	
 	public static void login_AdminPanel() throws Throwable
 	{
@@ -39,7 +43,7 @@ public class AdminPanel
 		
 	}
 	
-	public static void handlingOTP() throws InterruptedException{
+	/*public static void handlingOTP() throws InterruptedException{
 		//MongoClient client = new MongoClient();
 		MongoClient mongoClient = null;
 		//DB db = mongoClient.getDB("msupplyDB"); 
@@ -62,7 +66,7 @@ public class AdminPanel
 		   BasicDBObject object = (BasicDBObject) geoList.get(0); // this should return {"5": "Continent_Name"}
 		   Object value = object.get("5"); // value should contain "Continent_Name"
 		} 
-	}
+	}*/
 	public static void changeOrderToDelivered(int OrderNumber) throws Throwable
 	{
 		WebDriverCommonFunctions.element_Click("ManageOrder_Xpath", "Clicked on Manage Order");
@@ -96,6 +100,27 @@ public class AdminPanel
 		catch(MongoException e){
 			e.printStackTrace();
 		}
+	}
+	
+	public static void internalPanelLogin() throws InterruptedException{
+		
+		Scenario1Test.driver.findElement(By.xpath("(//form[@class='ng-pristine ng-valid']/div/input)[1]")).sendKeys("anshuman@msupply.com");
+		Thread.sleep(1000);
+		
+		log.info("Email entered");
+		Scenario1Test.driver.findElement(By.xpath("html/body/ng-view/div/div[1]/form[1]/div[6]/input")).sendKeys("123qwe");
+		Thread.sleep(1000);
+		log.info("Password entered");
+		Scenario1Test.driver.findElement(By.xpath("html/body/ng-view/div/div[1]/form[1]/button")).click();
+		
+		log.info("Login button clicked");
+		
+		Thread.sleep(60000);
+		log.info("OTP entered");
+		
+		Scenario1Test.driver.findElement(By.xpath("html/body/ng-view/div/div[1]/form[2]/button")).click();
+		
+		log.info("button clicked");
 	}
 
 }
